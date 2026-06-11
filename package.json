@@ -1,13 +1,13 @@
 {
-  "name": "trading-journal-server",
+  "name": "trading-journal-bot",
   "version": "1.0.0",
-  "description": "License key server for Trading Journal",
-  "main": "index.js",
+  "description": "Trading Journal Telegram Bot",
+  "main": "bot.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node bot.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.0"
   }
 }
